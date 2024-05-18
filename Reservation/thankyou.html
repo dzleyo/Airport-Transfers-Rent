@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thank You for Booking</title>
+  <script>
+    async function delay(ms) {
+      return new Promise(resolve => setTimeout(resolve, ms));
+    }
+    document.addEventListener('DOMContentLoaded', async () => {
+      await delay(6000);
+      window.location.href = "../index.html";
+    })
+  </script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background-color: #f0f8ff;
+      color: #333;
+    }
+    .message {
+      margin-top: 100px;
+      font-size: 24px;
+      color: #3496d8;
+    }
+    .message p {
+      margin: 20px 0;
+    }
+    .booking-cta {
+      font-weight: bold;
+    }
+    .highlight {
+      background-color: #3496d8;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 5px;
+      display: inline-block;
+    }
+    .footer {
+      margin-top: 50px;
+      font-size: 14px;
+      color: #3496d8;
+    }
+  </style>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+<div class="message">
+  <p class="booking-cta">Thank you for booking!</p>
+  <p class="booking-cta">You will be contacted shortly.</p>
+  <p class="highlight">Enjoy your day!</p>
+</div>
+<div class="footer">
+  <p>&copy; 2024 Ohrid Airport Transfers and Rent a car. All rights reserved.</p>
+</div>
+</body>
+</html>

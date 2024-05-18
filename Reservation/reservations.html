@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Ohrid Airport Transfers</title>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+	<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
+	<link type="text/css" rel="stylesheet" href="css/style.css" />
+	<script src="reservationscript.js"></script>
+	<link rel="stylesheet" href="../css/templatemo-style.css">
+</head>
+
+<body>
+	<div id="booking" class="section">
+		<div class="section-center">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-7 col-md-push-5">
+						<div class="booking-cta">
+							<h1>Book your taxi</h1>
+						</div>
+					</div>
+					<div class="col-md-5 col-md-pull-7">
+						<div class="booking-form">
+							<form action="https://formspree.io/f/mbjvgadj" method="post" id="myForm">
+								<div class="form-group">
+									<div class="row mb-5">
+										<div class="col-sm-6">
+											<span class="form-label">Your Destination</span>
+											<input class="form-control" type="text" placeholder="Enter a destination" required name="Дестинација:">
+										</div>
+										<div class="col-sm-6 mb-6">
+											<span class="form-label">Name: </span>
+											<input class="form-control" type="text" placeholder="John Doe" required name="Име:">
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-sm-6">
+										<div class="form-group">
+											<span class="form-label">Arrival Date</span>
+											<input class="form-control" type="date" name="Датум на пристигнување:" required>
+										</div>
+									</div>
+									<div class="col-sm-6">
+										<div class="form-group">
+											<span class="form-label">Arrival Time</span>
+											<input class="form-control" type="time" required name="Време на пристигнување:">
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<!--<div class="col-sm-4">
+										<div class="form-group">
+
+										</div>
+									</div>-->
+									<div class="col-sm-5">
+										<div class="form-group">
+											<span class="form-label">Number of People</span>
+											<select class="form-control" name="Број на патници:">
+												<option>1</option>
+												<option>2</option>
+												<option>3</option>
+												<option>4</option>
+												<option>5</option>
+												<option>6</option>
+												<option>7</option>
+											</select>
+											<span class="select-arrow"></span>
+										</div>
+									</div>
+									<div class="col-sm-6">
+										<div class="form-group">
+											<span class="form-label">Contact: </span>
+											<input class="form-control" type="text" placeholder="Number/Email" required name="Контакт: ">
+										</div>
+									</div>
+								</div>
+							<!--
+							<div class="row">
+									<div class="col-sm-6">
+										<div class="form-group">
+											<span class="form-label">Name: </span>
+											<input class="form-control" type="text" name="Име:" required>
+										</div>
+									</div>
+									<div class="col-sm-6">
+										<div class="form-group">
+											<span class="form-label">Contact: </span>
+											<input class="form-control" type="text" placeholder="Number/Email" required name="Контакт: ">
+										</div>
+									</div>
+								</div>-->
+								<div class="form-btn d-flex align-items-center">
+									<input type="submit" class="submit-btn" value="Book Now" id="SubmitButton">
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<a href="index.html" id="HomeButton"><img src="../img/home.png"></a>
+</body>
+
+</html>
